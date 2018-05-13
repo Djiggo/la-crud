@@ -1,0 +1,19 @@
+{
+  "name": "djiggo/la-crud",
+  "type": "library",
+  "autoload": {
+    "psr-4" : {
+      "LA\\" : "src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Djiggo/la-framework.git"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "djiggo/la-framework": "dev-master"
+  }
+}
